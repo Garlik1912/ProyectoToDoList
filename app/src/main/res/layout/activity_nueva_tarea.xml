@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/txtVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="←"
+        android:textSize="30sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nueva tarea"
+        android:textSize="40sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/txtTitulo"
+        android:gravity="center_vertical"
+        android:text="  Título"
+        android:textSize="18sp"
+        android:textColor="@android:color/darker_gray"
+        android:background="#1F1F1F"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:id="@+id/txtDescripcion"
+        android:gravity="top"
+        android:text="  Descripción"
+        android:textSize="18sp"
+        android:textColor="@android:color/darker_gray"
+        android:background="#1F1F1F"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prioridad"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Baja"
+            android:textSize="16sp"
+            android:id="@+id/btnBaja"
+            android:backgroundTint="#2E7D32"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Media"
+            android:textSize="16sp"
+            android:id="@+id/btnMedia"
+            android:backgroundTint="#F9A825"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Alta"
+            android:textSize="16sp"
+            android:id="@+id/btnAlta"
+            android:backgroundTint="#C62828"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Categoría"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/txtCategoria"
+        android:gravity="center_vertical"
+        android:text="  Seleccionar categoría  ▾"
+        android:textSize="18sp"
+        android:textColor="@android:color/darker_gray"
+        android:background="#1F1F1F"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="24dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar tarea"
+        android:textSize="20sp"
+        android:id="@+id/btnGuardar"
+        android:backgroundTint="#1D3AB8"/>
+</LinearLayout>

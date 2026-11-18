@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="←"
+            android:textSize="30sp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text="☰"
+            android:textSize="30sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:gravity="center"
+        android:text="👤"
+        android:textSize="90sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/txtUsuario"
+        android:gravity="center_vertical"
+        android:text="  Usuario"
+        android:textSize="18sp"
+        android:textColor="@android:color/darker_gray"
+        android:background="#1F1F1F"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/txtContrasena"
+        android:gravity="center_vertical"
+        android:text="  Contraseña"
+        android:textSize="18sp"
+        android:textColor="@android:color/darker_gray"
+        android:background="#1F1F1F"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtOlvido"
+        android:text="¿Olvidaste la contraseña?"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtRecordar"
+        android:text="☐ Recordar dispositivo"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="12dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar sesión"
+        android:textSize="20sp"
+        android:id="@+id/btnLogin"
+        android:backgroundTint="#1D3AB8"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Continuar con:"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="F"
+            android:textSize="20sp"
+            android:id="@+id/btnFacebook"
+            android:backgroundTint="#1D3AB8"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="I"
+            android:textSize="20sp"
+            android:id="@+id/btnInstagram"
+            android:backgroundTint="#1D3AB8"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="G"
+            android:textSize="20sp"
+            android:id="@+id/btnGoogle"
+            android:backgroundTint="#1D3AB8"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="A"
+            android:textSize="20sp"
+            android:id="@+id/btnApple"
+            android:backgroundTint="#1D3AB8"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="H"
+            android:textSize="20sp"
+            android:id="@+id/btnGithub"
+            android:backgroundTint="#1D3AB8"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/txtInvitado"
+        android:text="Continuar como invitado"
+        android:textSize="18sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/txtCrearCuenta"
+        android:text="Crear cuenta"
+        android:textSize="18sp"
+        android:textColor="@color/white"/>
+</LinearLayout>

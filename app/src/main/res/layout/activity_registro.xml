@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/txtVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="←"
+        android:textSize="30sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear cuenta"
+        android:textSize="40sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/txtNombre"
+        android:gravity="center_vertical"
+        android:text="  Nombre"
+        android:textSize="18sp"
+        android:textColor="@android:color/darker_gray"
+        android:background="#1F1F1F"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/txtCorreo"
+        android:gravity="center_vertical"
+        android:text="  Correo electrónico"
+        android:textSize="18sp"
+        android:textColor="@android:color/darker_gray"
+        android:background="#1F1F1F"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/txtContrasenaReg"
+        android:gravity="center_vertical"
+        android:text="  Contraseña"
+        android:textSize="18sp"
+        android:textColor="@android:color/darker_gray"
+        android:background="#1F1F1F"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/txtConfirmar"
+        android:gravity="center_vertical"
+        android:text="  Confirmar contraseña"
+        android:textSize="18sp"
+        android:textColor="@android:color/darker_gray"
+        android:background="#1F1F1F"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrarse"
+        android:textSize="20sp"
+        android:id="@+id/btnRegistrar"
+        android:backgroundTint="#1D3AB8"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/txtYaTienesCuenta"
+        android:text="¿Ya tienes cuenta? Inicia sesión"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"/>
+</LinearLayout>
